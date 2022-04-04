@@ -9,6 +9,8 @@ import Foundation
 
 public class AuthSDK {
     
+    public init() {}
+    
     func Authenticate() {
         print("%%%%%%%%%%%")
     }
