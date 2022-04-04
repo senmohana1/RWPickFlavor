@@ -11,7 +11,7 @@ public class AuthSDK {
     
     public init() {}
     
-    func Authenticate() {
+    public func Authenticate() {
         print("%%%%%%%%%%%")
     }
     
