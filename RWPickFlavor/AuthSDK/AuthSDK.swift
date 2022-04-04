@@ -7,10 +7,10 @@
 
 import Foundation
 
-class AuthSDK {
+public class AuthSDK {
     
     func Authenticate() {
-        
+        print("%%%%%%%%%%%")
     }
     
 }

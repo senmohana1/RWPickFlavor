@@ -11,7 +11,7 @@ s.requires_arc = true
 s.version = "0.1.0"
 
 # 3
-s.license = { :type => "MIT", :file => "LICENSE" }
+#s.license = { :type => "MIT", :file => "LICENSE" }
 
 # 4 - Replace with your name and e-mail address
 s.author = { "senthil" => "asen.nathan@gmail.com" }
@@ -25,14 +25,14 @@ s.source = { :git => "https://github.com/senmohana1/RWPickFlavor.git",
 
 # 7
 s.framework = "UIKit"
-s.dependency 'Alamofire', '~> 4.7'
-s.dependency 'MBProgressHUD', '~> 1.1.0'
+#s.dependency 'Alamofire', '~> 4.7'
+#s.dependency 'MBProgressHUD', '~> 1.1.0'
 
 # 8
 s.source_files = "RWPickFlavor/**/*.{swift}"
 
 # 9
-s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
+#s.resources = "RWPickFlavor/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
 # 10
 s.swift_version = "4.2"
