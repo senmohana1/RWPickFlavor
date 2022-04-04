@@ -11,6 +11,7 @@
 		4B01A41627FB441E00D5A042 /* RWPickFlavor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B01A40B27FB441D00D5A042 /* RWPickFlavor.framework */; };
 		4B01A41B27FB441E00D5A042 /* RWPickFlavorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B01A41A27FB441E00D5A042 /* RWPickFlavorTests.swift */; };
 		4B01A41C27FB441E00D5A042 /* RWPickFlavor.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B01A40E27FB441D00D5A042 /* RWPickFlavor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B01A42727FB46CD00D5A042 /* AuthSDK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B01A42627FB46CD00D5A042 /* AuthSDK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		4B01A40F27FB441D00D5A042 /* RWPickFlavor.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = RWPickFlavor.docc; sourceTree = "<group>"; };
 		4B01A41527FB441E00D5A042 /* RWPickFlavorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RWPickFlavorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B01A41A27FB441E00D5A042 /* RWPickFlavorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RWPickFlavorTests.swift; sourceTree = "<group>"; };
+		4B01A42627FB46CD00D5A042 /* AuthSDK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthSDK.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		4B01A40D27FB441D00D5A042 /* RWPickFlavor */ = {
 			isa = PBXGroup;
 			children = (
+				4B01A42527FB46B200D5A042 /* AuthSDK */,
 				4B01A40E27FB441D00D5A042 /* RWPickFlavor.h */,
 				4B01A40F27FB441D00D5A042 /* RWPickFlavor.docc */,
 			);
@@ -83,6 +86,14 @@
 				4B01A41A27FB441E00D5A042 /* RWPickFlavorTests.swift */,
 			);
 			path = RWPickFlavorTests;
+			sourceTree = "<group>";
+		};
+		4B01A42527FB46B200D5A042 /* AuthSDK */ = {
+			isa = PBXGroup;
+			children = (
+				4B01A42627FB46CD00D5A042 /* AuthSDK.swift */,
+			);
+			path = AuthSDK;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B01A42727FB46CD00D5A042 /* AuthSDK.swift in Sources */,
 				4B01A41027FB441D00D5A042 /* RWPickFlavor.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -398,6 +410,7 @@
 		4B01A42327FB441E00D5A042 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 45C5U65577;
@@ -419,6 +432,7 @@
 		4B01A42427FB441E00D5A042 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 45C5U65577;
